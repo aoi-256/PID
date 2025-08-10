@@ -1,0 +1,18 @@
+# IDE/Editor folders
+.vscode/
+.idea/
+*.code-workspace
+
+# Build artifacts
+build/
+dist/
+Debug/
+Release/
+*.obj
+*.o
+*.exe
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
