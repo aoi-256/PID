@@ -6,7 +6,7 @@
  */
 
 #ifndef INC_PID_H_
-#define INC_PID_H_１
+#define INC_PID_H_
 
 class PID {
 
