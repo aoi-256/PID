@@ -20,6 +20,7 @@ class PID {
 		void setLimit(float i_max, float d_max);
 		void calc(float target, float process_value);
 		float getData();
+		void reset();
 
 	private:
 

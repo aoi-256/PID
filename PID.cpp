@@ -179,3 +179,13 @@ float PID::getData(){
 
 	return control;
 }
+
+void PID::reset(){
+
+	// ゲイン(p/i/d)、周期(time)、上限(i_max/d_max)は維持
+	integral   = 0.0f;
+	pre_error  = 0.0f;
+	pre_error2 = 0.0f;
+	control    = 0.0f;
+	sample_count = 0;
+}
